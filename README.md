@@ -78,13 +78,6 @@ If no API key is configured, GitLens still works — it uses a rule-based commit
 
 ---
 
-## 📸 Screenshots
-
-<!-- TODO: Add screenshots -->
-> *Screenshots coming soon — run the app and take some!*
-
----
-
 ## 🏗 Architecture
 
 ```
