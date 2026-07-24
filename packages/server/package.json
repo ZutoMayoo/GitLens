@@ -15,9 +15,11 @@
     "@gitlens/engine": "workspace:*",
     "better-sqlite3": "^11.0.0",
     "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
     "express": "^4.19.0",
-    "ws": "^8.18.0",
-    "uuid": "^10.0.0"
+    "simple-git": "^3.25.0",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.0",

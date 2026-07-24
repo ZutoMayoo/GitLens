@@ -78,7 +78,8 @@ export function groupByModule(
   const modules = new Map<string, ModuleStat>();
 
   for (const stat of fileStats.values()) {
-    const module = stat.path.split('/')[0] || '(root)';
+    const parts = stat.path.split('/');
+    const module = parts.length > 1 ? parts[0] : '(root)';
 
     let mod = modules.get(module);
     if (!mod) {

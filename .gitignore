@@ -1,9 +1,38 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+packages/*/dist/
+
+# Environment (contains API keys — never commit!)
 .env
 .env.local
+.env.*.local
+
+# Database (SQLite cache)
 *.db
 *.db-journal
-.turbo/
+*.db-shm
+*.db-wal
+
+# TypeScript
+*.tsbuildinfo
+packages/*/tsconfig.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+packages/web/.vite/
+
+# Coverage
 coverage/
-.vite/
