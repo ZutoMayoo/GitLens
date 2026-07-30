@@ -19,6 +19,9 @@
 
 ---
 
+## Preface
+This repo can be considered as one of my practice works with vibe coding and agent assistance. However it doesn't mean this project is low-quality. I've tested by myself to made sure it's usable and solid. Of course its performance cannot reach my primitive expectation, but its functions are complete. If you have any questions or suggestions please let me know - create an issue or just send me an e-mail at ZUTOMAYO1215@outlook.com.
+
 ## ✨ Features
 
 - ⏱ **Interactive Timeline** — D3.js-powered visual timeline showing commit clusters over time
